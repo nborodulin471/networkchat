@@ -1,0 +1,43 @@
+2022-04-23 17:37:10,037 INFO s.ServerApplication [main] Starting ServerApplication using Java 18 on MacBook-Pro-Nikita.local with PID 4028 (/Users/nikita/IdeaProjects/networkchat/target/classes started by nikita in /Users/nikita/IdeaProjects/networkchat)
+2022-04-23 17:37:10,038 INFO s.ServerApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 17:37:10,195 INFO s.ServerApplication [main] Started ServerApplication in 0.295 seconds (JVM running for 0.531)
+2022-04-23 17:37:14,231 INFO c.ClientApplication [main] Starting ClientApplication using Java 18 on MacBook-Pro-Nikita.local with PID 4030 (/Users/nikita/IdeaProjects/networkchat/target/classes started by nikita in /Users/nikita/IdeaProjects/networkchat)
+2022-04-23 17:37:14,232 INFO c.ClientApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 17:37:14,427 INFO c.ClientApplication [main] Started ClientApplication in 0.363 seconds (JVM running for 0.622)
+2022-04-23 17:37:14,430 INFO s.Server [main] Выполнено соединение /127.0.0.1:65475
+2022-04-23 17:37:14,430 INFO c.ClientImp [main] Выберите имя пользователя...
+2022-04-23 17:37:26,546 INFO c.ClientApplication [main] Starting ClientApplication using Java 18 on MacBook-Pro-Nikita.local with PID 4039 (/Users/nikita/IdeaProjects/networkchat/target/classes started by nikita in /Users/nikita/IdeaProjects/networkchat)
+2022-04-23 17:37:26,548 INFO c.ClientApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 17:37:26,745 INFO c.ClientApplication [main] Started ClientApplication in 0.364 seconds (JVM running for 0.62)
+2022-04-23 17:37:26,748 INFO s.Server [main] Выполнено соединение /127.0.0.1:65480
+2022-04-23 17:37:26,749 INFO c.ClientImp [main] Выберите имя пользователя...
+2022-04-23 17:37:41,098 INFO c.ClientImp [main] Вы выбрали имя Никич
+2022-04-23 17:37:47,479 INFO c.ClientImp [main] Вы выбрали имя Петрович
+2022-04-23 17:37:54,375 INFO c.ClientImp [main] Отправлено сообщение от Никич: Го чат тестить
+
+2022-04-23 17:37:54,376 INFO c.ClientImp [Thread-1] Получено сообщение от Никич: Го чат тестить
+2022-04-23 17:38:09,922 INFO c.ClientImp [main] Отправлено сообщение от Петрович: А чо думаешь сломается?
+
+2022-04-23 17:38:09,923 INFO c.ClientImp [Thread-1] Получено сообщение от Петрович: А чо думаешь сломается?
+2022-04-23 17:38:36,340 INFO c.ClientImp [main] Отправлено сообщение от Никич: Ну мало ли, вдруг кто-то решит логи проверить!!!
+
+2022-04-23 17:38:36,341 INFO c.ClientImp [Thread-1] Получено сообщение от Никич: Ну мало ли, вдруг кто-то решит логи проверить!!!
+2022-04-23 17:39:11,318 INFO c.ClientImp [main] Отправлено сообщение от Петрович: Привет тебе незнамец смотрящий логи!
+
+2022-04-23 17:39:11,319 INFO c.ClientImp [Thread-1] Получено сообщение от Петрович: Привет тебе незнамец смотрящий логи!
+2022-04-23 17:39:16,331 INFO c.ClientImp [main] Пользователь Петрович вышел из чата
+2022-04-23 17:39:22,087 INFO c.ClientImp [main] Пользователь Никич вышел из чата
+2022-04-23 17:41:30,375 INFO s.Server [main] Соединение закрыто /127.0.0.1:65475
+2022-04-23 17:41:30,375 ERROR c.ClientImp [Thread-1] Не удалось прочитать сообщение, по причине: null
+2022-04-23 17:41:32,586 INFO c.ClientApplication [main] Starting ClientApplication using Java 18 on MacBook-Pro-Nikita.local with PID 4052 (/Users/nikita/IdeaProjects/networkchat/target/classes started by nikita in /Users/nikita/IdeaProjects/networkchat)
+2022-04-23 17:41:32,587 INFO c.ClientApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 17:41:32,786 INFO c.ClientApplication [main] Started ClientApplication in 0.361 seconds (JVM running for 0.789)
+2022-04-23 17:41:32,790 INFO s.Server [main] Выполнено соединение /127.0.0.1:65486
+2022-04-23 17:41:32,790 INFO c.ClientImp [main] Выберите имя пользователя...
+2022-04-23 17:41:42,683 INFO c.ClientImp [main] Вы выбрали имя Смотрящий
+2022-04-23 17:42:08,429 INFO c.ClientImp [main] Отправлено сообщение от Смотрящий: Так, всем привет, провсто проверю, что выход работает
+
+2022-04-23 17:42:08,429 INFO c.ClientImp [Thread-1] Получено сообщение от Смотрящий: Так, всем привет, провсто проверю, что выход работает
+2022-04-23 17:42:12,882 INFO c.ClientImp [main] Пользователь Смотрящий вышел из чата
+2022-04-23 17:42:12,884 INFO s.Server [main] Соединение закрыто /127.0.0.1:65486
+2022-04-23 17:42:12,885 ERROR c.ClientImp [Thread-1] Не удалось прочитать сообщение, по причине: null
